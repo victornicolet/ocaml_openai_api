@@ -1,0 +1,4 @@
+(library
+ (public_name openai_api)
+ (libraries cohttp)
+ (name openai_api))
