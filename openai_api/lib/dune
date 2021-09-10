@@ -1,4 +1,4 @@
 (library
  (public_name openai_api)
- (libraries cohttp)
+ (libraries cohttp cohttp-lwt-unix)
  (name openai_api))

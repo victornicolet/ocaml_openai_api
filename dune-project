@@ -12,4 +12,8 @@
  (homepage "https://www.github.com/victornicolet/ocaml_openai_api/issues")
  (depends
   ("cohttp"
-   (>= "4.0.0"))))
+   (>= "4.0.0"))
+  ("cohttp-lwt-unix"
+   (>= "4.0.0"))
+  ("tls"
+   (>= "0.14.0"))))
